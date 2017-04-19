@@ -81,10 +81,10 @@ public class MainFrame extends JFrame implements ActionListener {
         button.setEnabled(false);
 
         if(checkWinner(PLAYER.X)){
-            JOptionPane.showMessageDialog(this, "Gracz X wygrał");
+            JOptionPane.showMessageDialog(this, "Player X won!");
             System.exit(0);
         } else if (checkWinner(PLAYER.O)) {
-            JOptionPane.showMessageDialog(this, "Gracz O wygrał");
+            JOptionPane.showMessageDialog(this, "Player O won!");
             System.exit(0);
         }
     }

@@ -11,7 +11,7 @@ public class Main  {
 
 
     public static void main(final String[] args) {
-        new MainFrame("Gra o i x");
+        new MainFrame("Tic tac toe");
 
 
 
